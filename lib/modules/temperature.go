@@ -12,7 +12,7 @@ import (
 // e.g. /sys/devices/platform/coretemp.0/hwmon
 type Temperature struct {
 	BlockConfigBase `yaml:",inline"`
-	TempPath        string  `yaml:"cpu_temp_path"`
+	TempPath        string  `yaml:"temp_path"`
 	CritTemp        float64 `yaml:"crit_temp"`
 }
 
