@@ -6,8 +6,9 @@ import (
 	"os"
 	"reflect"
 
+	"github.com/cvnb/goblocks/lib/modules"
+
 	"github.com/davidscholberg/go-i3barjson"
-	"github.com/davidscholberg/goblocks/lib/modules"
 )
 
 func main() {
